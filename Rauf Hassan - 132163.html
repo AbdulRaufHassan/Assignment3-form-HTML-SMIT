@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment3_HTML</title>
+</head>
+
+<body>
+    <center>
+        <img src="https://i.pinimg.com/736x/9c/9a/ef/9c9aefcf49d7f51f9be204b650e7362e.jpg" alt="logo" width="500px"
+            height="190">
+        <h1 style="margin-top: 0;"><u style="color: blueviolet;  font-weight:600; font: 1em sans-serif;">STUDENT
+                REGISTRATION FORM</u></h1>
+    </center>
+    <form style="background-color: blueviolet; padding: 20px;font: 1em sans-serif;color: white;font-size: small; ">
+        <label for="fname" style="margin-right: 50px; font-size: large;">FIRST
+            NAME</label>
+        <input type="text" id="fname" placeholder="Enter first name" maxlength="30"
+            style="padding: 7px; margin-right: 12px;" size="23" name="first name">(max 30 characters a-z and A-Z)
+
+        <br><br>
+        <label for="lname" style="margin-right: 57px; font-size: large;">LAST NAME</label>
+        <input type="text" id="lname" placeholder="Enter last name" maxlength="30"
+            style="padding: 7px; margin-right: 12px;" size="23" name="last name">(max 30 characters a-z and A-Z)
+        <br><br>
+        <label for="birth" style="margin-right: 23px; font-size: large;">DATE OF
+            BIRTH</label>
+        <input type="date" id="birth" style="padding: 5px; margin-right: 12px;" name="birth"><br><br>
+        <label for="email" style="margin-right: 81px; font-size: large;">EMAIL ID</label>
+        <input type="email" id="email" style="padding: 7px; margin-right: 12px;" size="23"
+            placeholder="Enter email address" name="email"><br><br>
+
+        <label for="num" style="margin-right: 6px; font-size: large;">MOBILE
+            NUMBER</label>
+        <input type="tel" id="num" style="padding: 7px; margin-right: 12px;" size="23" maxlength="10"
+            placeholder="Enter mobile number" name="phone">(10 digit number) <br><br>
+        <label style="font-size: large;">GENDER </label>
+
+        <label for="male" style="font-size: 15px; margin-left: 70px;">Male</label>
+        <input type="radio" id="male" style="margin-right: 12px;" name="gender" value="male">
+        <label for="female" style="font-size: 15px;">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br><br>
+        <div style="display: flex;align-items: center;"><label for="adres"
+                style="margin-right: 65px; font-size: large;">ADDRESS</label>
+            <textarea name="address" id="adres" cols="40" rows="4"></textarea>
+        </div><br>
+        <label for="city" style="margin-right: 117px; font-size: large;">CITY</label>
+        <input type="text" id="city" placeholder="Enter city name" maxlength="30"
+            style="padding: 7px; margin-right: 12px;" size="23" name="first name">(max 30 characters a-z and A-Z)
+        <br><br>
+        <label for="pin" style="margin-right: 70px; font-size: large;">PIN CODE</label>
+        <input type="number" id="pin" style="padding: 7px; margin-right: 12px;" size="23" maxlength="6"
+            placeholder="Enter pin code" name="pin code">(6 digit number) <br><br>
+        <label for="state" style="margin-right: 102px; font-size: large;">STATE</label>
+        <input type="text" id="state" placeholder="Enter state name" maxlength="30"
+            style="padding: 7px; margin-right: 12px;" size="23" name="state">(max 30 characters a-z and A-Z) <br><br>
+        <label for="count" style="margin-right: 69px; font-size: large;">COUNTRY</label>
+        <input type="text" id="count" placeholder="Enter country" style="padding: 7px; margin-right: 12px;" size="23"
+            name="country"><br><br>
+        <div style="display: flex;align-items: center;"><label style="font-size: large;">HOBBIES</label>
+            <div style="margin-left: 80px;"><label for="drawing" style="font-size: 15px;">Drawing</label> <input
+                    type="checkbox" id="drawing" name="hobbies" value="Drawing">
+                <label for="singing" style="font-size: 15px;margin-left: 10px;">Singing</label> <input type="checkbox"
+                    id="singing" name="hobbies" value="Singing">
+                <label for="dancing" style="font-size: 15px;margin-left: 10px;">Dancing</label> <input type="checkbox"
+                    id="dancing" name="hobbies" value="Dancing">
+                <label for="sketching" style="font-size: 15px;margin-left: 10px;">Sketching</label> <input
+                    id="sketching" type="checkbox" name="hobbies" value="Sketching"><br><br><label for="others"
+                    style="font-size: 15px;">Others</label> <input type="checkbox" id="others" name="hobbies"
+                    value="Others"><input type="text" size="23" name="hobbies" style="margin-left: 23px; padding: 7px;">
+            </div>
+        </div>
+        <br>
+        <label style="font-size: large;">QUALIFICATION</label> <label
+            style="font-size: 17px;margin-left: 20px;">SL.NO.Examination</label><label
+            style="font-size: 17px; margin-left: 250px;">Board</label><label
+            style="font-size: 17px;margin-left: 193px;">Percentage</label><label
+            style="font-size: 17px;margin-left: 150px;">Year of passing</label><br><br>
+        <ol>
+            <li style="font-size: 17px; margin-left: 140px;">Class X<input type="text" size="23" name="Xboard"
+                    style="padding: 7px;margin-left: 322px;"><input type="text" size="23" name="Xper"
+                    style="padding: 7px;margin-left: 30px;"><input type="text" size="23" name="Xyear"
+                    style="padding: 7px;margin-left: 30px;"></li><br>
+            <li style="font-size: 17px; margin-left: 140px;">Class XII<input type="text" size="23" name="XIIboard"
+                    style="padding: 7px;margin-left: 313px;"><input type="text" size="23" name="XIIper"
+                    style="padding: 7px;margin-left: 30px;"><input type="text" size="23" name="XIIyear"
+                    style="padding: 7px;margin-left: 30px;"></li><br>
+            <li style="font-size: 17px; margin-left: 140px;">Graduation<input type="text" size="23" name="gboard"
+                    style="padding: 7px;margin-left: 297px;"><input type="text" size="23" name="gper"
+                    style="padding: 7px;margin-left: 30px;"><input type="text" size="23" name="gyear"
+                    style="padding: 7px;margin-left: 30px;"></li><br>
+            <li style="font-size: 17px; margin-left: 140px;">Masters<input type="text" size="23" name="mboard"
+                    style="padding: 7px;margin-left: 321px;"><input type="text" size="23" name="mper"
+                    style="padding: 7px;margin-left: 30px;"><input type="text" size="23" name="myear"
+                    style="padding: 7px;margin-left: 30px;"></li>
+        </ol>
+        <br>
+        <div style="display: flex;"> <label style="font-size: large;">COURSES <br> APPLIED FOR</label>
+            <div> <input type="radio" name="coursesapplyfor" value="BCA" id="bca"
+                    style="font-size: 15px;margin-left: 60px;"><label for="bca" style="font-size: 15px;">BCA</label>
+                <input type="radio" name="coursesapplyfor" value="BCOM" id="bcom"
+                    style="font-size: 15px;margin-left: 12px;"><label for="bcom" style="font-size: 15px;">B.COM</label>
+                <input type="radio" name="coursesapplyfor" value="BSC" id="bsc"
+                    style="font-size: 15px;margin-left: 12px;"><label for="bsc" style="font-size: 15px;">B.SC</label>
+                <input type="radio" name="coursesapplyfor" value="BA" id="ba"
+                    style="font-size: 15px;margin-left: 12px;"><label for="ba" style="font-size: 15px;">B.A</label>
+            </div>
+        </div>
+        <br><br>
+        <center> <input type="submit" style="margin-right: 5px;"><input type="reset"></center>
+    </form>
+</body>
+
+</html>
